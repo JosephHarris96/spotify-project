@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: signika, sans-serif;
+  
+}
+
+
+.homepageContainer {
+  border: 2px solid black;
+  max-width: 400px;
+  width: 100%;
+}
+
+
+.searchContainer,
+.homeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchContent,
+.homeContainer,
+.spotifyContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 5px; 
+  gap: 10px;
+}
+
+.searchContent,
+.homeContainer,
+.spotifyContainer p {
+  font: white;
+}
