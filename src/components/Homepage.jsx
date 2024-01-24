@@ -1,7 +1,7 @@
 import React from "react";
 import SpotifyImage from "../assets/images/spotify.png";
-import HomeImage from "../assets/images/home.png";
-import SearchImage from "../assets/images/search-interface-symbol.png";
+import HomeImage from "../assets/images/home-icon-white.png";
+import SearchImage from "../assets/images/white-search-bar.png"
 
 function Homepage() {
   return (
@@ -17,7 +17,7 @@ function Homepage() {
         </div>
         <div className="searchContainer">
             <div className="searchContent">
-          <img src={SearchImage} alt="search image" style={{ width: "30px"}} />
+          <img src={SearchImage} alt="search image" style={{ width: "30px" }} />
           <p>Search</p>
           </div>
         </div>

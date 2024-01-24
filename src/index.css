@@ -2,34 +2,45 @@
 
 * {
   font-family: signika, sans-serif;
-  
+  background-color: black;
 }
-
 
 .homepageContainer {
   border: 2px solid black;
+  border-radius: 10px;
   max-width: 400px;
   width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-
-.searchContainer,
-.homeContainer {
-  display: flex;
-  align-items: center;
+/* Apply a background color to the entire content area */
+.homepageContainer {
+  background-color: rgb(10, 10, 10);
 }
 
-.searchContent,
+/* Add border and padding to each container */
+.spotifyContainer,
 .homeContainer,
-.spotifyContainer {
+.searchContent {
   display: flex;
   align-items: center;
-  margin-left: 5px; 
+  margin-left: 5px;
+  background-color: rgb(10, 10, 10);
   gap: 10px;
 }
 
-.searchContent,
-.homeContainer,
-.spotifyContainer p {
-  font: white;
+/* Style for the image and text inside each container */
+.spotifyContainer img,
+.homeContainer img,
+.searchContainer img,
+.spotifyContainer p,
+.homeContainer p,
+.searchContainer p {
+  color: white;
+  background-color: rgb(10, 10, 10)
+}
+
+.searchContent {
+  background-color: rgb(10, 10, 10)
 }
