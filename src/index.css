@@ -5,13 +5,15 @@
   background-color: black;
 }
 
-.homepageContainer {
+.homepageContainer,
+.libraryContainer {
   border: 2px solid black;
   border-radius: 10px;
   max-width: 400px;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 /* Apply a background color to the entire content area */
@@ -22,7 +24,8 @@
 /* Add border and padding to each container */
 .spotifyContainer,
 .homeContainer,
-.searchContent {
+.searchContent,
+.libraryContainer {
   display: flex;
   align-items: center;
   margin-left: 5px;
@@ -30,17 +33,37 @@
   gap: 10px;
 }
 
-/* Style for the image and text inside each container */
+
 .spotifyContainer img,
 .homeContainer img,
 .searchContainer img,
+.libraryContainer,
 .spotifyContainer p,
 .homeContainer p,
 .searchContainer p {
   color: white;
-  background-color: rgb(10, 10, 10)
+
 }
 
 .searchContent {
   background-color: rgb(10, 10, 10)
 }
+
+.libraryContainer {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  background-color: rgb(10, 10, 10);
+}
+
+.plusImage {
+  margin-left: auto;
+  background-color: rgb(10, 10, 10);
+}
+
+.libraryContainer p {
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+
