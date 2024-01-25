@@ -6,7 +6,9 @@
 }
 
 .homepageContainer,
-.libraryContainer {
+.libraryContainer,
+.playlistContainer,
+.podcastsContainer {
   border: 2px solid black;
   border-radius: 10px;
   max-width: 400px;
@@ -51,19 +53,80 @@
 
 .libraryContainer {
   display: flex;
-  align-items: center;
+  flex-direction: column; 
+  align-items: flex-start;
   border: 2px solid black;
+  border-radius: 10px;
   background-color: rgb(10, 10, 10);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 .plusImage {
-  margin-left: auto;
   background-color: rgb(10, 10, 10);
+  display: flex;
+  ;
 }
 
 .libraryContainer p {
   background-color: rgb(10, 10, 10);
   color: white;
+  
 }
+
+.playlistContainer,
+.podcastsContainer {
+  background-color: rgb(85, 81, 81); 
+}
+
+.playlistContainer p,
+.podcastsContainer p {
+  background-color: rgb(85, 81, 81); 
+}
+
+.playlistContainer button,
+.podcastsContainer button,
+.contactContainer button {
+  border:white;
+  border-radius: 50px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+}
+
+.playlistContainer button:hover,
+.podcastsContainer button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  margin-top: 50px;
+}
+
+.contactContainer p {
+  color: rgb(85, 81, 81);
+  font-size: 12px;
+  
+}
+
+.contactContainer button {
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.englishButton {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
