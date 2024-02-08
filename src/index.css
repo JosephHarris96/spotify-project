@@ -87,7 +87,8 @@
 
 .playlistContainer button,
 .podcastsContainer button,
-.contactContainer button {
+.contactContainer button,
+.footerButton button {
   border:white;
   border-radius: 50px;
   padding: 10px;
@@ -128,5 +129,49 @@
   justify-content: space-between;
 }
 
+.footerContainer {
+  border: 1px solid white;
+  background: linear-gradient(15deg, #AC15AD, #98C8FF);
+}
+
+.footerContainer p {
+  color: white;
+  background: linear-gradient(15deg, #AC15AD, #98C8FF);
+  margin: 10px;
+}
+
+.footerButton {
+  background: linear-gradient(15deg, #AC15AD, #98C8FF);
+}
+
+.footerButton button {
+  background-color: white;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.borderContainer {
+  /* display: flex;
+  justify-content: flex-end; */
+  width: 100%;
+}
+
+.sidebarContainer {
+  border: 2px solid white;
+  /* width: 100%;
+  
+  display: flex;
+  justify-content: flex-end;
+  color: white; */
+}
+/* .sidebarContainer p {
+  display: flex;
+  justify-content: center;
+} */
+
+.wrapper {
+  display: flex;
+}
 
 
